@@ -19,6 +19,6 @@ export class Potion extends Item implements Usable {
     }
 
     use(target: Character): void {
-        
+        target.setHealth(target.getHealth() + this.healAmount)
     }
 }
