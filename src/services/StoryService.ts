@@ -5,7 +5,6 @@ export class Store {
 
 public randomShop(character: Character): string {
 
-
     const random = Math.floor(Math.random() * 5) + 1
 
     switch (random) {       // aleatorizador da loja , falta colocar os itens e o preço do ouro
