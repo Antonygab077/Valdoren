@@ -1,4 +1,4 @@
-const ask = require(`readline-sync`)
+import { ask } from "../Main"
 import { Character } from "../models/Character"
 
 export class Store {
